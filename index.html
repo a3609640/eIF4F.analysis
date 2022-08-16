@@ -188,7 +188,7 @@
 <span id="cb3-2"><a href="#cb3-2"></a><span class="fu">sudo</span> apt install subversion <span class="co"># on Linux</span></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="co"># download the Script folder from git repository</span></span>
 <span id="cb3-4"><a href="#cb3-4"></a><span class="fu">svn</span> export https://github.com/a3609640/eIF4F.analysis/trunk/Script</span></code></pre></div>
-<p>Run <code>Download.sh</code> from <code>Script</code> folder of our GitHub repository.</p>
+<p>Run <code>Download.sh</code> from <code>Script</code> folder downloaded from our GitHub repository.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">bash</span> ~/Script/Download.sh</span></code></pre></div>
 <p><code>Download.sh</code> is a bash script to download all needed datasets (TCGA, GTEx, CPTAC, CCLE and etc) from URLs and unzip them. <code>Download.sh</code> will create the <code>~/Downloads/EIF_data</code> directory to store all downloaded datasets.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="co">#!/bin/sh</span></span>
