@@ -183,13 +183,11 @@
 <div class="section level2">
 <h2 id="download-datasets-and-analysis-script">Download datasets and analysis script<a class="anchor" aria-label="anchor" href="#download-datasets-and-analysis-script"></a>
 </h2>
-<p>Download <code>Script</code> folder of our GitHub repository. <code>Script</code> folder contains two scripts: <code>Download.sh</code> and <code>Analysis.R</code>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># if subversion is not install, install it with the following command line</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="fu">sudo</span> apt install subversion <span class="co"># on Linux</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="co"># download the Script folder from git repository</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="fu">svn</span> export https://github.com/a3609640/eIF4F.analysis/trunk/Script</span></code></pre></div>
-<p>Run <code>Download.sh</code> from <code>Script</code> folder downloaded from our GitHub repository.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">bash</span> ~/Script/Download.sh</span></code></pre></div>
+<p>Download <code>Script</code> folder of our GitHub repository.</p>
+<p>Clone (download) eIF4.analysis repository on GitHub.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">git</span> clone https://github.com/a3609640/eIF4F.analysis.git</span></code></pre></div>
+<p>Two script files are stored in the <code>Script</code> folder downloaded from our GitHub repository: <code>Download.sh</code> and <code>Analysis.R</code>. Run <code>Download.sh</code> from <code>Script</code> folder.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">bash</span> ~/github/eIF4F.analysis/Script/Download.sh</span></code></pre></div>
 <p><code>Download.sh</code> is a bash script to download all needed datasets (TCGA, GTEx, CPTAC, CCLE and etc) from URLs and unzip them. <code>Download.sh</code> will create the <code>~/Downloads/EIF_data</code> directory to store all downloaded datasets.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="co">#!/bin/sh</span></span>
 <span id="cb5-2"><a href="#cb5-2"></a></span>
