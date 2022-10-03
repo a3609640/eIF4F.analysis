@@ -193,8 +193,8 @@
 <p>Open Download.R file in RStudio, verify the directories for input and output files as following.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># default directory for data download and output storage</span></span>
-<span><span class="va">data_file_directory</span> <span class="op">&lt;-</span> <span class="st">"~/eIF4F.analysis/eIF4F_data/"</span></span>
-<span><span class="va">output_directory</span> <span class="op">&lt;-</span> <span class="st">"~/eIF4F.analysis/eIF4F_output/"</span></span></code></pre></div>
+<span><span class="va">data_file_directory</span> <span class="op">&lt;-</span> <span class="st">"~/eIF4F.analysis/eIF4F_data"</span></span>
+<span><span class="va">output_directory</span> <span class="op">&lt;-</span> <span class="st">"~/eIF4F.analysis/eIF4F_output"</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="download-datasets">Download datasets<a class="anchor" aria-label="anchor" href="#download-datasets"></a>
@@ -202,7 +202,7 @@
 <p><code>Download.R</code> downloads all needed datasets (TGCA, GTEx, CPTAC, CCLE, etc.) from URLs and decompresses them. To run the <code>Download.R</code> file in RStudio with the following command line.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/source.html" class="external-link">source</a></span><span class="op">(</span><span class="st">"~/eIF4F.analysis/Script/Download.R"</span><span class="op">)</span></span></code></pre></div>
-<p><code>Download.R</code> will (unless modified) create <code>~/eIF4F.analysis/eIF4F_data</code>, where all needed datasets (TGCA, GTEx, CPTAC, CCLE etc.) will be stored and decompressed, and <code>~/eIF4F.analysis/eIF4F_output/</code>, where all the analyzed results will be stored.</p>
+<p><code>Download.R</code> will (unless modified) create <code>~/eIF4F.analysis/eIF4F_data</code>, where all needed datasets (TGCA, GTEx, CPTAC, CCLE etc.) will be stored and decompressed, and <code>~/eIF4F.analysis/eIF4F_output</code>, where all the analyzed results will be stored.</p>
 <p><img src="reference/figures/eIF4F.analysis.dic.png" width="240"></p>
 <p>After the completion of the download and unzip steps, the <code>eIF4F_data</code> folder contains 16 data files, with a collective size of 15GB.</p>
 <p><img src="reference/figures/eIF4F.analysis.download.png" width="627"></p>
