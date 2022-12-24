@@ -2,6 +2,7 @@
 output: github_document
 editor_options: 
   chunk_output_type: console
+bibliography: references.bib
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -27,7 +28,7 @@ eIF4F.analysis is an R-based computational pipeline to understand function and r
 
 ## Before you begin
 
-Perform the following steps to ensure the proper operation of this package.
+**Perform the following steps to ensure the proper operation of this package.**
 
 [System requirements]
 
@@ -46,6 +47,8 @@ Perform the following steps to ensure the proper operation of this package.
 [Tutorial]
 
 [Session information]
+
+[Reference]
 
 ## System requirements
 
@@ -108,7 +111,7 @@ The following systems have been used to execute the R scripts in this project:
 
         -   R-4.1.2
 
-System 1 is the reference system on which most development and testing were performed. Additional details of System 1 are provided in the \"Session Information\" section below. **We recommend Linux OS to run the package.**
+System 1 is the reference system on which most development and testing were performed. Additional details of System 1 are provided in the "Session Information" section below. **We recommend Linux OS to run the package.**
 
 See also README_WINDOWS.md for details regarding observed behavior on Windows.
 
@@ -427,3 +430,9 @@ The version information of R, Linux and attached or loaded packages for developi
 
 ──────────────────────────────────────────────────────────────────────
 ```
+
+## Reference
+
+1.  Wu, Su, and Gerhard Wagner. 2021. "Deep Computational AnalysisDetails Dysregulation of Eukaryotic Translation Initiation Complex eIF4Fin Human Cancers." Cell Systems 12 (9): 907--923.e6. <https://doi.org/10.1016/j.cels.2021.07.002>.
+
+2.  Wu, Su, and Gerhard Wagner. 2022. "Protocol to AnalyzeDysregulation of the eIF4F Complex in Human Cancers Using R Software andLarge Public Datasets." STAR Protocols 3 (4): 101880. <https://doi.org/10.1016/j.xpro.2022.101880>.

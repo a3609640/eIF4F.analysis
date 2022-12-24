@@ -19,8 +19,8 @@ correlation, all using publicly available multi-omics data.
 
 ## Before you begin
 
-Perform the following steps to ensure the proper operation of this
-package.
+**Perform the following steps to ensure the proper operation of this
+package.**
 
 [System requirements](#system-requirements)
 
@@ -40,6 +40,8 @@ package.
 
 [Session information](#session-information)
 
+[Reference](#reference)
+
 ## System requirements
 
 This project makes use of various resource-intensive R packages, which
@@ -54,63 +56,63 @@ project:
 
 1.  (verified) System76 “Serval” mobile workstation
 
-    -   Intel i7-8700k CPU
-    -   64GB RAM (DDR4-3000, non-ECC)
-    -   Samsung NVMe Pro SSD
-    -   Pop!\_OS 22.04 LTS
-    -   RStudio
-    -   R 4.2.1
+    - Intel i7-8700k CPU
+    - 64GB RAM (DDR4-3000, non-ECC)
+    - Samsung NVMe Pro SSD
+    - Pop!\_OS 22.04 LTS
+    - RStudio
+    - R 4.2.1
 
 2.  (verified) PowerSpec G460 desktop computer
 
-    -   Intel i7-8700k CPU
-    -   64GB RAM (DDR4-3200, non-ECC)
-    -   Intel M.2 SATA SSD
-    -   Samsung NVMe Evo+ SSD
-    -   Windows 10 Pro
-    -   RStudio for Windows
-    -   R 4.0.3
+    - Intel i7-8700k CPU
+    - 64GB RAM (DDR4-3200, non-ECC)
+    - Intel M.2 SATA SSD
+    - Samsung NVMe Evo+ SSD
+    - Windows 10 Pro
+    - RStudio for Windows
+    - R 4.0.3
 
 3.  PowerSpec B748 desktop computer (with aftermarket upgrades)
 
-    -   Intel i7-12700k CPU
+    - Intel i7-12700k CPU
 
-    -   128GB RAM (DDR4-3600, non-ECC)
+    - 128GB RAM (DDR4-3600, non-ECC)
 
-    -   Sabrent SB-RKT4P-8TB NVMe (gen4) SSD (Pop!\_OS installation)
+    - Sabrent SB-RKT4P-8TB NVMe (gen4) SSD (Pop!\_OS installation)
 
-    -   Seagate FireCuda 530 ZP4000GM30023 NVMe (gen4) SSD (Windows
-        installation)
+    - Seagate FireCuda 530 ZP4000GM30023 NVMe (gen4) SSD (Windows
+      installation)
 
-    -   NVIDIA GeForce RTX 3090
+    - NVIDIA GeForce RTX 3090
 
-    -   Pop!\_OS 22.04 LTS
+    - Pop!\_OS 22.04 LTS
 
-    -   Windows 11 Pro build 22000.1042
+    - Windows 11 Pro build 22000.1042
 
-    -   RStudio 2022.07.2+576 “Spotted Wakerobin” Release
+    - RStudio 2022.07.2+576 “Spotted Wakerobin” Release
 
-        -   (e7373ef832b49b2a9b88162cfe7eac5f22c40b34, 2022-09-06) for
-            Windows
+      - (e7373ef832b49b2a9b88162cfe7eac5f22c40b34, 2022-09-06) for
+        Windows
 
-        -   Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-            (KHTML, like Gecko)
+      - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+        (KHTML, like Gecko)
 
-        -   QtWebEngine/5.12.8 Chrome/69.0.3497.128 Safari/537.36
+      - QtWebEngine/5.12.8 Chrome/69.0.3497.128 Safari/537.36
 
-    -   R-4.2.1 for Windows (Windows native)
+    - R-4.2.1 for Windows (Windows native)
 
-    -   Git for Windows version 2.37.3.windows.1
+    - Git for Windows version 2.37.3.windows.1
 
-    -   Windows Subsystem for Linux
+    - Windows Subsystem for Linux
 
-        -   Ubuntu 22.04
+      - Ubuntu 22.04
 
-        -   R-4.1.2
+      - R-4.1.2
 
 System 1 is the reference system on which most development and testing
 were performed. Additional details of System 1 are provided in the
-"Session Information" section below. **We recommend Linux OS to run the
+“Session Information” section below. **We recommend Linux OS to run the
 package.**
 
 See also README_WINDOWS.md for details regarding observed behavior on
@@ -458,3 +460,15 @@ developing this package is the following.
 
 ──────────────────────────────────────────────────────────────────────
 ```
+
+## Reference
+
+1.  Wu, Su, and Gerhard Wagner. 2021. “Deep Computational
+    AnalysisDetails Dysregulation of Eukaryotic Translation Initiation
+    Complex eIF4Fin Human Cancers.” Cell Systems 12 (9): 907–923.e6.
+    <https://doi.org/10.1016/j.cels.2021.07.002>.
+
+2.  Wu, Su, and Gerhard Wagner. 2022. “Protocol to AnalyzeDysregulation
+    of the eIF4F Complex in Human Cancers Using R Software andLarge
+    Public Datasets.” STAR Protocols 3 (4): 101880.
+    <https://doi.org/10.1016/j.xpro.2022.101880>.
