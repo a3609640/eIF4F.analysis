@@ -24,7 +24,7 @@ jobs:
         run: |
           sudo apt install libglpk-dev
 
-      - uses: r-lib/actions/setup-r-dependencies@v1
+      - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: rcmdcheck
 
