@@ -3,13 +3,6 @@
 
 # eIF4F.analysis
 
-<!-- badges: start -->
-
-[![R-CMD-check](https://github.com/a3609640/eIF4F.analysis/workflows/R-CMD-check/badge.svg)](https://github.com/a3609640/eIF4F.analysis/actions)
-[![R](https://github.com/a3609640/eIF4F.analysis/actions/workflows/r.yml/badge.svg)](https://github.com/a3609640/eIF4F.analysis/actions/workflows/r.yml)
-
-<!-- badges: end -->
-
 eIF4F.analysis is an R-based computational pipeline to understand
 function and regulation of interactions among translation initiation
 complex proteins across tumor types. This package provides a toolkit for
